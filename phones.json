@@ -1,0 +1,310 @@
+{
+    "phones": [
+      {
+        "name": "Google Pixel 8 Pro",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Porcelain", "Bay", "Obsidian"]
+      },
+      {
+        "name": "Google Pixel 8",
+        "monthlyPrice": "$22.22/mo",
+        "retailPrice": "$799.99",
+        "colors": ["Obsidian", "Hazel", "Rose"]
+      },
+      {
+        "name": "Apple iPhone 15 Pro",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Black Titanium", "White Titanium", "Natural Titanium", "Blue Titanium"]
+      },
+      {
+        "name": "Apple iPhone 15",
+        "monthlyPrice": "$23.05/mo",
+        "retailPrice": "$829.99",
+        "colors": ["Black", "Pink", "Yellow", "Blue", "Green"]
+      },
+      {
+        "name": "Apple iPhone 15 Pro Max",
+        "monthlyPrice": "$33.33/mo",
+        "retailPrice": "$1199.99",
+        "colors": ["Black Titanium", "Blue Titanium", "White Titanium", "Natural Titanium"]
+      },
+      {
+        "name": "Apple iPhone 15 Plus",
+        "monthlyPrice": "$25.83/mo",
+        "retailPrice": "$929.99",
+        "colors": ["Black", "Pink", "Yellow", "Blue", "Green"]
+      },
+      {
+        "name": "Samsung Galaxy Z Fold5",
+        "monthlyPrice": "$49.99/mo",
+        "retailPrice": "$1799.99",
+        "colors": ["Phantom Black", "Cream", "Icy Blue"]
+      },
+      {
+        "name": "Samsung Galaxy Z Flip5",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Graphite", "Lavender", "Cream", "Mint"]
+      },
+      {
+        "name": "Google Pixel Fold",
+        "monthlyPrice": "$49.99/mo",
+        "retailPrice": "$1799.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy A54 5G",
+        "monthlyPrice": "$10.00/mo",
+        "retailPrice": "$499.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy S23 Ultra",
+        "monthlyPrice": "$33.33/mo",
+        "retailPrice": "$1199.99",
+        "colors": ["Phantom Black", "Cream", "Green", "Lavender"]
+      },
+      {
+        "name": "Samsung Galaxy S23+",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Phantom Black", "Cream", "Green", "Lavender"]
+      },
+      {
+        "name": "Samsung Galaxy S23",
+        "monthlyPrice": "$22.22/mo",
+        "retailPrice": "$799.99",
+        "colors": ["Phantom Black", "Cream", "Green", "Lavender"]
+      },
+      {
+        "name": "Google Pixel 7a",
+        "monthlyPrice": "$15.27/mo",
+        "retailPrice": "$549.99",
+        "colors": ["Charcoal", "Snow", "Sea"]
+      },
+      {
+        "name": "Samsung Galaxy A23 5G UW",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$349.99",
+        "colors": []
+      },
+      {
+        "name": "Google Pixel 7 Pro",
+        "monthlyPrice": "$30.55/mo",
+        "retailPrice": "$1099.99",
+        "colors": ["Obsidian", "Snow - Out of stock", "Hazel - Out of stock"]
+      },
+      {
+        "name": "Kyocera DuraForce PRO 3",
+        "monthlyPrice": "$24.99/mo",
+        "retailPrice": "$899.99",
+        "colors": []
+      },
+      {
+        "name": "Google Pixel 7",
+        "monthlyPrice": "$19.44/mo",
+        "retailPrice": "$699.99",
+        "colors": ["Obsidian", "Snow", "Lemongrass - Out of stock"]
+      },
+      {
+        "name": "Apple iPhone 14 Pro",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$899.99",
+        "colors": ["Space Black", "Gold", "Deep Purple", "Silver - Out of stock"]
+      },
+      {
+        "name": "Apple iPhone 14",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$729.99",
+        "colors": ["Yellow", "Midnight", "Starlight", "Purple", "(PRODUCT)RED", "Blue"]
+      },
+      {
+        "name": "Apple iPhone 14 Plus",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$829.99",
+        "colors": ["Yellow", "Midnight", "Starlight", "Purple", "(PRODUCT)RED", "Blue"]
+      },
+      {
+        "name": "Apple iPhone 14 Pro Max",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Space Black", "Silver", "Gold", "Deep Purple"]
+      },
+      {
+        "name": "Samsung Galaxy Z Flip4",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Bora Purple", "Blue", "Pink Gold", "Graphite - Out of stock"]
+      },
+      {
+        "name": "Motorola edge - 2022",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$659.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy Z Fold4",
+        "monthlyPrice": "$53.33/mo",
+        "retailPrice": "$1919.99",
+        "colors": ["Graygreen - Out of stock", "Beige - Out of stock"]
+      },
+      {
+        "name": "Apple iPhone 12",
+        "monthlyPrice": "$16.66/mo",
+        "retailPrice": "$599.99",
+        "colors": ["(PRODUCT)RED", "Green - Out of stock", "Purple - Out of stock", "White - Out of stock", "Black - Out of stock", "Blue - Out of stock"]
+      },
+      {
+        "name": "Google Pixel 6a",
+        "monthlyPrice": "$11.11/mo",
+        "retailPrice": "$399.99",
+        "colors": ["Chalk", "Charcoal - Out of stock", "Sage - Out of stock"]
+      },
+      {
+        "name": "Apple iPhone SE (3rd Gen)",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$429.99",
+        "colors": ["(PRODUCT)RED", "Midnight", "Starlight"]
+      },
+      {
+        "name": "Apple iPhone 13",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$629.99",
+        "colors": ["(PRODUCT)RED", "Green", "Pink", "Blue", "Starlight", "Midnight"]
+      },
+      {
+        "name": "Samsung Galaxy S22+",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Green", "Phantom White", "Pink Gold", "Phantom Black - Out of stock"]
+      },
+      {
+        "name": "Motorola edge 5G UW",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$549.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy A42 5G",
+        "monthlyPrice": "$9.99/mo",
+        "retailPrice": "$359.99",
+        "colors": []
+      },
+      {
+        "name": "Apple iPhone 13 mini",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$599.99",
+        "colors": ["(PRODUCT)RED - Out of stock", "Green - Out of stock"]
+      },
+      {
+        "name": "Motorola moto g stylus 5G",
+        "monthlyPrice": "$11.11/mo",
+        "retailPrice": "$399.99",
+        "colors": []
+      },
+      {
+        "name": "Motorola edge+ 5G UW",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$849.99",
+        "colors": ["Cosmos Blue", "Stardust - Out of stock"]
+      },
+      {
+        "name": "Google Pixel 6 Pro",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Cloudy White", "Stormy Black"]
+      },
+      {
+        "name": "Samsung Galaxy S22 Ultra",
+        "monthlyPrice": "$10.00/mo",
+        "retailPrice": "$1199.99",
+        "colors": ["Burgundy - Out of stock", "Green - Out of stock", "Phantom Black - Out of stock", "Phantom White - Out of stock"]
+      },
+      {
+        "name": "Google Pixel 6",
+        "monthlyPrice": "$22.22/mo",
+        "retailPrice": "$799.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy S22",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$699.99",
+        "colors": ["Phantom Black", "Green - Out of stock", "Phantom White - Out of stock", "Pink Gold - Out of stock"]
+      },
+      {
+        "name": "Samsung Galaxy Z Fold3 5G",
+        "monthlyPrice": "$49.99/mo",
+        "retailPrice": "$1799.99",
+        "colors": ["Phantom Black", "Phantom Green", "Phantom Silver"]
+      },
+      {
+        "name": "Samsung Galaxy Z Flip3 5G",
+        "monthlyPrice": "$27.77/mo",
+        "retailPrice": "$999.99",
+        "colors": ["Cream", "Green", "Lavender", "Phantom Black - Out of stock"]
+      },
+      {
+        "name": "Samsung Galaxy S21 FE 5G",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$599.99",
+        "colors": ["Graphite", "Lavender"]
+      },
+      {
+        "name": "TCL 30 V 5G",
+        "monthlyPrice": "$8.33/mo",
+        "retailPrice": "$299.99",
+        "colors": []
+      },
+      {
+        "name": "Motorola one 5G UW ace",
+        "monthlyPrice": "$0/mo",
+        "retailPrice": "$299.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy S20 FE 5G UW",
+        "monthlyPrice": "$16.66/mo",
+        "retailPrice": "$599.99",
+        "colors": []
+      },
+      {
+        "name": "Motorola edge+",
+        "monthlyPrice": "$24.16/mo",
+        "retailPrice": "$869.99",
+        "colors": ["Smoky Sangria - Out of stock", "Thunder Grey - Out of stock"]
+      },
+      {
+        "name": "Kyocera DuraSport 5G UW",
+        "monthlyPrice": "$16.11/mo",
+        "retailPrice": "$579.99",
+        "colors": []
+      },
+      {
+        "name": "Samsung Galaxy A53 5G UW",
+        "monthlyPrice": "$13.88/mo",
+        "retailPrice": "$499.99",
+        "colors": []
+      },
+      {
+        "name": "Nokia 8 V 5G UW",
+        "monthlyPrice": "$19.44/mo",
+        "retailPrice": "$699.99",
+        "colors": []
+      },
+      {
+        "name": "TCL 10 5G UW",
+        "monthlyPrice": "$11.11/mo",
+        "retailPrice": "$399.99",
+        "colors": []
+      },
+      {
+        "name": "Kyocera DuraForce Ultra 5G UW",
+        "monthlyPrice": "$24.99/mo",
+        "retailPrice": "$899.99",
+        "colors": []
+      }
+    ]
+  }

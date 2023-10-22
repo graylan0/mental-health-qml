@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verizon Service Sales Representative AI Ambassador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #0071BC, #FFFFFF);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        /* Top bar styling */
+        #top-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+        }
+        /* Sidebar styling */
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            padding-top: 20px;
+        }
+        .sidebar-item a {
+            display: block;
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+        }
+        .sidebar-item a:hover {
+            background-color: #575757;
+        }
+        /* Main content styling */
+        #main-content {
+            margin-left: 260px;
+            padding: 20px;
+        }
+        /* Chat box styling */
+        #chat-box {
+            border: 2px solid #0071BC;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            height: 400px;
+            overflow-y: auto;
+        }
+        /* Phone info styling */
+        .phone-info {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .phone-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <ul id="sidebar-menu">
+            <li class="sidebar-item"><a href="#home">Home</a></li>
+            <li class="sidebar-item"><a href="#chat">Chat</a></li>
+            <li class="sidebar-item"><a href="#settings">Settings</a></li>
+        </ul>
+    </div>
+    <div id="main-content">
+        <div id="top-bar">
+            <i class="fas fa-cog"></i> Settings
+        </div>
+        <h1>Chat with Verizon AI Ambassador</h1>
+        <button id="toggle-speech-recognition">Enable Speech Recognition</button>
+        <div id="recognized-speech"></div>
+        <div id="chat-box">
+            <!-- Chat messages will go here -->
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+        <div id="phone-recommendations">
+            <!-- Phone recommendations will go here -->
+        </div>
+    </div> <!-- End of main-content -->
+    <div style="background-color: #333; color: white; padding: 20px; text-align: center; position: fixed; bottom: 0; width: 100%;">
+        <p>🤖 Built by AI models including LLama2/ChatGPT Intercommunication 🤖</p>
+        <p>👨‍💻 Human Trainer/Engineer: gray00/Graylan 👨‍💻</p>
+        <p>📞 Contact: <a href="https://oneloveipfs.com" target="_blank" style="color: white; text-decoration: underline;">oneloveipfs.com</a> 📞</p>
+    </div>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript">
+        let isSpeechRecognitionEnabled = false;
+
+        document.getElementById('toggle-speech-recognition').addEventListener('click', () => {
+            isSpeechRecognitionEnabled = !isSpeechRecognitionEnabled;
+            eel.set_speech_recognition_state(isSpeechRecognitionEnabled);
+            document.getElementById('toggle-speech-recognition').innerText = isSpeechRecognitionEnabled ? 'Disable Speech Recognition' : 'Enable Speech Recognition';
+        });
+
+        document.getElementById('send-button').addEventListener('click', async () => {
+            const userInput = document.getElementById('user-input').value;
+            const response = await eel.send_message_to_llama(userInput)();
+            update_chat_box(`User: ${userInput}`);
+            update_chat_box(`AI: ${response}`);
+            document.getElementById('user-input').value = '';
+        });
+
+        async function fetchPhoneRecommendations() {
+            const response = await fetch('/getPhoneRecommendations');
+            const data = await response.json();
+            const recommendationsDiv = document.getElementById('phone-recommendations');
+            data.forEach(phone => {
+                recommendationsDiv.innerHTML += `
+                    <div class="phone-info">
+                        <div class="phone-title">${phone.name}</div>
+                        <div>Price: ${phone.price}</div>
+                        <div>Description: ${phone.description}</div>
+                    </div>
+                `;
+            });
+        }
+
+        fetchPhoneRecommendations();
+
+        // Function to update the chat box
+        eel.expose(update_chat_box);
+        function update_chat_box(message) {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML += `<p>${message}</p>`;
+        }
+    </script>
+</body>
+</html>
